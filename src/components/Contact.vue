@@ -13,11 +13,11 @@ export default {
       type: Object,
       default: () => {
         return {
-          id: "#contact-section",
+          id: "#contact-section"
         };
-      },
-    },
-  },
+      }
+    }
+  }
 };
 </script>
 

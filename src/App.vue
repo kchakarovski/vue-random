@@ -18,7 +18,7 @@ export default {
   name: "app",
   components: {
     AppHeader,
-    AppFooter,
+    AppFooter
   },
   data() {
     return {};
@@ -27,7 +27,7 @@ export default {
     this.getData();
   },
   computed: {
-    ...mapGetters(["navigationInputData"]),
+    ...mapGetters(["navigationInputData"])
   },
   methods: {
     ...mapActions(["updateNavigationData", "updateHomeData"]),
@@ -37,8 +37,8 @@ export default {
     },
     clickedNavigation(scroll) {
       document.getElementById(scroll).scrollIntoView({ behavior: "smooth" });
-    },
-  },
+    }
+  }
 };
 </script>
 <style lang="scss"></style>

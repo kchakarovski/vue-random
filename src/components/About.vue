@@ -12,12 +12,12 @@ export default {
     inputData: {
       type: Object,
       default: () => {
-        return{
-          id: "#about-section",
-        }
+        return {
+          id: "#about-section"
+        };
       }
-    },
-  },
+    }
+  }
 };
 </script>
 

@@ -20,22 +20,22 @@ export default {
         return [
           {
             id: "#page",
-            name: "Home",
-          },
+            name: "Home"
+          }
         ];
-      },
-    },
+      }
+    }
   },
   name: "AppHeader",
   data() {
     return {
-      logo: "https://cdn.mainlycoding.com/xQLq9YtnepVOVkWyQaC2.jpg",
+      logo: "https://cdn.mainlycoding.com/xQLq9YtnepVOVkWyQaC2.jpg"
     };
   },
   methods: {
     toggleNavigationItem(scroll) {
       this.$emit("clickedNavigation", scroll);
-    },
-  },
+    }
+  }
 };
 </script>
